@@ -1,0 +1,44 @@
+
+
+img{
+    max-width: 25vw;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h1::after{
+    content: '';
+    display: block;
+    background-color: rgb(192, 188, 188);
+    height: .15rem;
+}
+
+.illus-container{
+    padding: 4rem;
+}
+
+.form-container{
+    margin: 2rem;
+    padding: 4rem;
+    border: solid 1px silver;
+    -webkit-box-shadow: -1px 0px 8px 4px rgba(168,158,168,0.6);
+    -moz-box-shadow: -1px 0px 8px 4px rgba(168,158,168,0.6);
+    box-shadow: -1px 0px 8px 4px rgba(168,158,168,0.6);
+    }
+
+
+@media only screen and (max-width: 600px) {
+    .illus-container{
+        display: none;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .form-container{
+        width: 20rem;
+    }
+  }

@@ -1,0 +1,30 @@
+.post-img{
+    max-width: 35vw;
+}
+
+.post-container{
+    -webkit-box-shadow: -1px 0px 8px 3px rgba(168,158,168,0.4);
+    -moz-box-shadow: -1px 0px 8px 3px rgba(168,158,168,0.4);
+    box-shadow: -1px 0px 8px 3px rgba(168,158,168,0.4);
+    padding: 1rem;
+}
+
+.posted-by{
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.info-container{
+    padding: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .post-container{
+        margin: 1rem;
+    }
+
+    .post-img{
+        max-width: 70vw;
+    }
+  }

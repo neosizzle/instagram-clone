@@ -1,0 +1,32 @@
+
+
+.post-img{
+    height: 15rem;
+    width: 15rem;
+    border: solid 2px rgb(197, 193, 193);
+}
+
+.post-img:hover{
+    -webkit-box-shadow: -1px 0px 8px 3px rgba(168,158,168,0.32);
+    -moz-box-shadow: -1px 0px 8px 3px rgba(168,158,168,0.32);
+    box-shadow: -1px 0px 8px 3px rgba(168,158,168,0.32);
+}
+
+/*screen constraints start*/
+@media only screen and (max-width: 700px) {
+
+    .post-img{
+        height: 50%;
+        width: 100%;
+        border: solid 2px rgb(197, 193, 193);
+    }
+
+    .posts{
+        justify-content: baseline !important; 
+    }
+   
+    .post-link{
+        max-width: 20vw;
+    }
+  }
+/*screen constraints end*/
